@@ -29,12 +29,23 @@ using namespace std;
 // read
 // ----
 
-TEST(CollatzFixture, read) {
+TEST(CollatzFixture, read_1) {
     string s("1 10\n");
     const pair<int, int> p = collatz_read(s);
     ASSERT_EQ( 1, p.first);
     ASSERT_EQ(10, p.second);}
 
+TEST(CollatzFixture, read_2) {
+    string s("1 1000000\n");
+    const pair<int, int> p = collatz_read(s);
+    ASSERT_EQ( 1, p.first);
+    ASSERT_EQ(1000000, p.second);}
+    
+TEST(CollatzFixture, read_3) {
+    string s("-1 10\n");
+    const pair<int, int> p = collatz_read(s);
+    ASSERT_EQ( -1, p.first);
+    ASSERT_EQ(10, p.second);}
 // ----
 // eval
 // ----
