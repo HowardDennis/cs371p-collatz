@@ -41,19 +41,19 @@ TEST(CollatzFixture, read) {
 
 TEST(CollatzFixture, eval_1) {
     const int v = collatz_eval(1, 10);
-    ASSERT_NE(20, v);}
+    ASSERT_EQ(20, v);}
 
 TEST(CollatzFixture, eval_2) {
     const int v = collatz_eval(100, 200);
-    ASSERT_NE(125, v);}
+    ASSERT_EQ(125, v);}
 
 TEST(CollatzFixture, eval_3) {
     const int v = collatz_eval(201, 210);
-    ASSERT_NE(89, v);}
+    ASSERT_EQ(89, v);}
 
 TEST(CollatzFixture, eval_4) {
     const int v = collatz_eval(900, 1000);
-    ASSERT_NE(174, v);}
+    ASSERT_EQ(174, v);}
 
 // -----
 // print
