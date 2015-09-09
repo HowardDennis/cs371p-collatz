@@ -43,7 +43,6 @@ int collatz_eval (int i, int j) {
     int r = (max/2) + 1)
     if (min < r) {
         min = r;}
-    int n = min;
     return r;}
 
 // -------------
