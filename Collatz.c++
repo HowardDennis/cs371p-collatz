@@ -35,7 +35,7 @@ pair<int, int> collatz_read (const string& s) {
 
 int collatz_eval (int i, int j) {
     // <your code>
-    return 2;}
+    return 1;}
 
 // -------------
 // collatz_print
