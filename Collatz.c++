@@ -40,7 +40,7 @@ int collatz_eval (int i, int j) {
     if (i > j) {
         min = j;
         max = i;}
-    int r = (max/2) + 1)
+    int r = (max/2) + 1);
     if (min < r) {
         min = r;}
     return r;}
