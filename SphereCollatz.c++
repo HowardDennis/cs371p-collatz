@@ -26,16 +26,32 @@ int collatz_eval (int i, int j) {
     if (min < r) {
         min = r;}
     int n = min;
+    
+    #ifdef N
+    int cache[N] = {0};
+    #endif
+    
     while (n <= max) {
-        int m = n, tmp = 1;
-        while (m > 1) {
-            if (m % 2 == 0) {
-                m /= 2;
-                ++tmp;}
-            else {
-                m = m + (m >> 1) + 1;
-                tmp += 2;}
+        int tmp = 1;
+        #ifdef N
+        if ((n < N) && (cache[n] != 0)) {
+            tmp = cache[n];
         }
+        #endif
+        else {
+            int m = n;
+            while (m > 1) {
+                if (m % 2 == 0) {
+                    m /= 2;
+                    ++tmp;}
+                else {
+                    m = m + (m >> 1) + 1;
+                    tmp += 2;}
+            }}
+        #ifdef N
+        if(n < N) {
+            cache[n] = tmp;}
+        #endif
         if (tmp > ret) {
             ret = tmp;}
         ++n;}
