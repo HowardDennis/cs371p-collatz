@@ -1,0 +1,373 @@
+commit a4d379ec87439996090b0cbb010b0ff309f83d8f
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 23:38:26 2015 -0500
+
+    Update SphereCollatz.c++
+
+commit 87613c702efe60a3f09e47b87f5eca83771151d0
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 23:21:09 2015 -0500
+
+    Update SphereCollatz.c++
+    
+    Made cache for sphere
+
+commit fc24bef33edd8b1d165cdded523dca844f31a79a
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 23:19:39 2015 -0500
+
+    Update Collatz.c++
+
+commit cbe893a97ef069ad7b7c7a2fae683417c60f0e78
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 23:17:29 2015 -0500
+
+    Update Collatz.c++
+    
+    Made cache
+
+commit ae3d2986bf9e789f3811d90a34c05140b9425e7e
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 22:08:35 2015 -0500
+
+    Update SphereCollatz.c++
+
+commit ff20b3b627c474be701b31334d91a29cabfabd19
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 21:48:49 2015 -0500
+
+    a
+
+commit cca6af487de57360cbe081cfd061ee27410451b1
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 21:40:57 2015 -0500
+
+    Update TestCollatz.c++
+
+commit fea550714df7a8b7b52d9e1431b04669d976fe2a
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 21:39:52 2015 -0500
+
+    Update TestCollatz.c++
+
+commit 7dbd901b4f41d52be4eb14c16f2df88e040807cd
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 21:22:19 2015 -0500
+
+    Update TestCollatz.c++
+
+commit eec6f2eed38cb8c85ab61df212929dd738a37997
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 21:19:53 2015 -0500
+
+    Update TestCollatz.c++
+    
+    Made corner cases
+
+commit a8a3a7872291462d3e05b605dd1d6def611cc172
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 21:04:33 2015 -0500
+
+    made RunCollatz.out with acceptance tests
+
+commit c26bd97f14e327887917113d46cd040a8d8f2ffb
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 20:56:15 2015 -0500
+
+    Update RunCollatz.in
+    
+    made 100 lines of acceptance tests
+
+commit 8d9fd714d3ddf89761e0aabcfb30f3aad981f5b4
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 19:48:53 2015 -0500
+
+    Update SphereCollatz.c++
+
+commit eea67eeb3589f9874c5635f93d8c6dc62d0f4b8c
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 19:23:05 2015 -0500
+
+    Create SphereCollatz.c++
+    
+    Made SphereCollatz
+
+commit 9ee6735d691a3854c2f19854bd959bd43f42bd9d
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 19:19:20 2015 -0500
+
+    Update Collatz.c++
+
+commit 594b8217860035ecdd83ce87e9f38eb2b4534152
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 19:16:00 2015 -0500
+
+    Update RunCollatz.out
+
+commit a9c4fd604da11a3498f60b777717ca7f2b7c31f9
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 19:13:05 2015 -0500
+
+    Update TestCollatz.c++
+
+commit dace8621f14c55d9722ef5045d672f15f21a7768
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 19:06:41 2015 -0500
+
+    Update Collatz.c++
+
+commit e49f74eaa6b951cfab37ac624487ada803718bab
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 19:05:32 2015 -0500
+
+    Update Collatz.c++
+    
+    Made eval
+
+commit 0e5ad0d1f1061aa9b457a27fa9a674b8edc5c529
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 18:44:39 2015 -0500
+
+    Update Collatz.c++
+
+commit 6bd77811c53286b5d8913fd3ad7ac88469560a41
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 18:43:42 2015 -0500
+
+    Update Collatz.c++
+
+commit b566dde502cf3d53bbccf7b0e66e6b96cb094ebb
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 18:27:55 2015 -0500
+
+    Update Collatz.c++
+
+commit eb22545c64e1fd0507b7b80ab43abdd2bc9e4c39
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 18:25:06 2015 -0500
+
+    Update Collatz.c++
+
+commit 07b422228375ec40e8ae8374f9bfbd2aea1e24e3
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 18:24:17 2015 -0500
+
+    Update Collatz.c++
+
+commit 4506e7546442314f8e0dc1e30922a26ee182dbe0
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 18:23:16 2015 -0500
+
+    Update Collatz.c++
+
+commit 96dde69c808b61a40ecb0ca7aebe37dbda3ece7a
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 18:05:22 2015 -0500
+
+    Update Collatz.c++
+    
+    Making eval
+
+commit acb3b617e971c92c8b5bf674c88a852ce82ece17
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 17:39:59 2015 -0500
+
+    Update TestCollatz.c++
+    
+    Made tests for if the numbers are in reverse order
+
+commit 2c40f9abf07ef0700c8dd2f5be72a0d273ffd3a5
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Wed Sep 9 17:23:59 2015 -0500
+
+    Update TestCollatz.c++
+    
+    Made three tests for reading
+
+commit 51e13db07d4b2cd00a92e8a224ac5630b4e96a4f
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 23:15:52 2015 -0500
+
+    Update TestCollatz.c++
+
+commit ed9844307af39f82e7c85be1ebed50061a2a7bc1
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 19:07:03 2015 -0500
+
+    Update Collatz.c++
+
+commit 0f5b5e83c394c3959d0a4a3a29096d368f242872
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 19:05:51 2015 -0500
+
+    Update RunCollatz.out
+
+commit 6ea6c8b9332f002598fde14b6b3785a27ede32cb
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 19:05:14 2015 -0500
+
+    Update TestCollatz.c++
+
+commit 1a4c83fd22b883e51a3c002462486707c3c35e41
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 19:03:33 2015 -0500
+
+    Update RunCollatz.c++
+
+commit 0db45f143f288238921896bfe9432664b1ce88fb
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 19:01:04 2015 -0500
+
+    s
+
+commit a974bb2ddf9ab043865e46edb24d9a74004507ba
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 18:58:45 2015 -0500
+
+    a
+
+commit 59eee2a8c4d9cce571beef7db8b1c1e9e1be617a
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 18:51:57 2015 -0500
+
+    a
+
+commit 5076a0126af59e568745568dd5cccbb88cb020f5
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 18:43:43 2015 -0500
+
+    Update TestCollatz.c++
+
+commit f6124d44e2fc974f50b1f90651eeba4d8d17ea81
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 18:43:12 2015 -0500
+
+    Update RunCollatz.c++
+
+commit 64a345b65505bcb7c66e68570f9ef5d4b04411e3
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 18:42:04 2015 -0500
+
+    Update RunCollatz.out
+
+commit bf50d3af2797ebb256027a096dd5c8dd77958cf2
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 18:39:13 2015 -0500
+
+    Update RunCollatz.c++
+
+commit 8f20b44ca8d91c67aee5c3ce2064470946b64543
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 18:34:56 2015 -0500
+
+    s
+
+commit 65ade9aab86fd1df429c73469a3b22780d05a225
+Merge: 6d3c951 93eac23
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 18:33:38 2015 -0500
+
+    Merge branch 'master' of https://github.com/HowardDennis/cs371p-collatz
+
+commit 93eac23a46d252b179eb66785392649a78f62019
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 18:32:34 2015 -0500
+
+    Update RunCollatz.out
+    
+    Changed last numbers to correct answer
+
+commit 6d3c951b0bc291a2f008ec564ebc6625fecd67df
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 18:29:52 2015 -0500
+
+    fixing tests
+
+commit 8cf48d6bb54a11214dee29d65e22e0f7c1bef72c
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Tue Sep 8 18:15:29 2015 -0500
+
+    Update TestCollatz.c++
+    
+    Fixed unit tests for failures
+
+commit 236fb998eeebb9173140e722b4eb784cfa9e6519
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Mon Sep 7 21:59:44 2015 -0500
+
+    Update makefile
+    
+    deleted eid tests for successful travis ci build
+
+commit e9a17e1e98f6a3b63334d5616c644f7e8393826c
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Mon Sep 7 21:42:29 2015 -0500
+
+    made collatz tests
+
+commit 01ed2c7fc58d055f5b8840922d79d8c52d140306
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Mon Sep 7 21:15:14 2015 -0500
+
+    added hidden files
+
+commit 2f02e2ffc04a15029f2aa8d7c825dfb295c3f14a
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Mon Sep 7 21:09:37 2015 -0500
+
+    copied files from public repo
+
+commit 72e017ce5e6a8345fbe1c50ffdbe31649cc92d69
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Sat Sep 5 18:42:38 2015 -0500
+
+    Delete test.txt
+
+commit 7d296cebbd61e4c609acde4e686baee870a8768e
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Sat Sep 5 18:30:18 2015 -0500
+
+    Delete README
+    
+    Deleted old README
+
+commit f4099e2ebce4fed735db2ad22b124d330f63d21f
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Sat Sep 5 18:29:55 2015 -0500
+
+    Create README.md
+    
+    Estimated time to completion
+
+commit a730d8c95f363ac6a0d2e76be4ae4ebb8900038e
+Merge: b50d4c0 ea68d32
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Sat Sep 5 16:45:32 2015 -0500
+
+    Merge branch 'master' of https://github.com/HowardDennis/cs371p-collatz
+
+commit b50d4c05f9e39ef96744e03ac30ea3ac86e91aff
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Sat Sep 5 16:33:07 2015 -0500
+
+    test
+
+commit ea68d328b1b8c52bd6945d3d0ab755c03713440d
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Sat Sep 5 16:21:09 2015 -0500
+
+    Delete README
+    
+    Trying to change remote origin in SSH
+
+commit 6611f990b5c1f0fe3a45aa4fd24a0b43aa689fda
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Sat Sep 5 16:18:07 2015 -0500
+
+    first commit
+
+commit b238db1b1ed424b66231a9c92650d7c4cf33ea5c
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Sat Sep 5 15:29:29 2015 -0500
+
+    first commit
