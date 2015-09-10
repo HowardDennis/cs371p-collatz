@@ -49,7 +49,7 @@ int collatz_eval (int i, int j) {
     while (n <= max) {
         int m = n, tmp = 1;
         while (m > 1) {
-            if (m % 2 = 0) {
+            if (m % 2 == 0) {
                 m /= 2;
                 ++tmp;}
             else {
