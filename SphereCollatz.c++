@@ -8,7 +8,7 @@ using namespace std;
 
 #define N 100000
 #ifdef
-int cache[N]
+int cache[N];
 #endif
 
 pair<int, int> collatz_read (const string& s) {
