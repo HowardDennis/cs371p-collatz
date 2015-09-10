@@ -6,8 +6,8 @@
 
 using namespace std;
 
-#define N 100000
-#ifdef
+#define N 1000000
+#ifdef N
 int cache[N];
 #endif
 
