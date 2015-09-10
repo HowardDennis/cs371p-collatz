@@ -107,7 +107,21 @@ TEST(CollatzFixture, print) {
     ostringstream w;
     collatz_print(w, 1, 10, 20);
     ASSERT_EQ("1 10 20\n", w.str());}
+    
+TEST(CollatzFixture, print_1) {
+    ostringstream w;
+    collatz_print(w, 999999, 999999, 259);
+    ASSERT_EQ("999999 999999 259\n", w.str());}
 
+TEST(CollatzFixture, print_2) {
+    ostringstream w;
+    collatz_print(w, 1, 1, 1);
+    ASSERT_EQ("1 1 1\n", w.str());}
+    
+TEST(CollatzFixture, print_3) {
+    ostringstream w;
+    collatz_print(w, 1, 999999, 529);
+    ASSERT_EQ("1 999999 529\n", w.str());}
 // -----
 // solve
 // -----
@@ -117,6 +131,24 @@ TEST(CollatzFixture, solve) {
     ostringstream w;
     collatz_solve(r, w);
     ASSERT_EQ("1 10 20\n100 200 125\n201 210 89\n900 1000 174\n", w.str());}
+    
+TEST(CollatzFixture, solve_1) {
+    istringstream r("1 1\n");
+    ostringstream w;
+    collatz_solve(r, w);
+    ASSERT_EQ("1 1 1\n", w.str());}
+    
+TEST(CollatzFixture, solve_2) {
+    istringstream r("1 999999\n");
+    ostringstream w;
+    collatz_solve(r, w);
+    ASSERT_EQ("1 999999 529\n", w.str());}
+    
+TEST(CollatzFixture, solve_3) {
+    istringstream r("999999 999999");
+    ostringstream w;
+    collatz_solve(r, w);
+    ASSERT_EQ("999999 999999 258\n", w.str());}
 
 /*
 % g++ -fprofile-arcs -ftest-coverage -pedantic -std=c++11 -Wall Collatz.c++ TestCollatz.c++ -o TestCollatz -lgtest -lgtest_main -lpthread
