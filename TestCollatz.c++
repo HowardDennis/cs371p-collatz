@@ -46,6 +46,12 @@ TEST(CollatzFixture, read_3) {
     const pair<int, int> p = collatz_read(s);
     ASSERT_EQ( -1, p.first);
     ASSERT_EQ(10, p.second);}
+    
+TEST(CollatzFixture, read_4) {
+    string s("1 999999\n");
+    const pair<int, int> p = collatz_read(s);
+    ASSERT_EQ( 1, p.first);
+    ASSERT_EQ(999999, p.second);}
 // ----
 // eval
 // ----
@@ -66,6 +72,17 @@ TEST(CollatzFixture, eval_4) {
     const int v = collatz_eval(900, 1000);
     ASSERT_EQ(174, v);}
     
+TEST(CollatzFixture, eval_5) {
+    const int v = collatz_eval(1, 1);
+    ASSERT_EQ(1, v);}
+    
+TEST(CollatzFixture, eval_6) {
+    const int v = collatz_eval(1, 999999);
+    ASSERT_EQ(1, v);}
+    
+TEST(CollatzFixture, eval_7) {
+    const int v = collatz_eval(999999, 999999);
+    ASSERT_EQ(1, v);}
 // ----
 // Reversed order of numbers
 // ----
