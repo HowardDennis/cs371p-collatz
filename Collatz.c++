@@ -49,7 +49,6 @@ int collatz_eval (int i, int j) {
         min = r;}
     int n = min;
     
-    int cache[N] = {0};
     #ifdef N
     int cache[N] = {0};
     #endif
