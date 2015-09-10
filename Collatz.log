@@ -1,3 +1,55 @@
+commit 166f04835ddf79bd4a0ea08a3e9f1f9bef89024b
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Thu Sep 10 16:16:33 2015 -0500
+
+    Update Collatz.c++
+    
+    Updated cache
+
+commit edae6e00bf239ed465e1d7300bc6a3d271b480e7
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Thu Sep 10 16:15:19 2015 -0500
+
+    Update SphereCollatz.c++
+
+commit efee5f286de11a812b3d58178c6690dba46348a9
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Thu Sep 10 16:12:05 2015 -0500
+
+    Update SphereCollatz.c++
+
+commit 00c6d634a2dafa3f7c78bfb84bac253013ab24a3
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Thu Sep 10 16:11:41 2015 -0500
+
+    Update SphereCollatz.c++
+    
+    improved cache
+
+commit 7c0ee6b04b2debcdeb0679ef5185c3b5fb29ebd4
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Thu Sep 10 00:16:21 2015 -0500
+
+    Update makefile
+
+commit ab1c73c1b820db849ae29a3392645664f43430df
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Thu Sep 10 00:14:06 2015 -0500
+
+    Update makefile
+
+commit c5a4fe9378163cdf32ef875d936f65cd78a9271c
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Thu Sep 10 00:11:29 2015 -0500
+
+    Update makefile
+
+commit c5b1dc6a695a76cfb957bb4ad0d035e2d6dc896e
+Author: HowardDennis <h2dennis@gmail.com>
+Date:   Thu Sep 10 00:04:40 2015 -0500
+
+    done, maybe
+
 commit a4d379ec87439996090b0cbb010b0ff309f83d8f
 Author: HowardDennis <h2dennis@gmail.com>
 Date:   Wed Sep 9 23:38:26 2015 -0500
