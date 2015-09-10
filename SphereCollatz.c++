@@ -6,6 +6,8 @@
 
 using namespace std;
 
+#define N 100000
+
 pair<int, int> collatz_read (const string& s) {
     istringstream sin(s);
     int i;
