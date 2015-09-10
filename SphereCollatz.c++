@@ -7,6 +7,9 @@
 using namespace std;
 
 #define N 100000
+#ifdef
+int cache[N]
+#endif
 
 pair<int, int> collatz_read (const string& s) {
     istringstream sin(s);
@@ -28,10 +31,6 @@ int collatz_eval (int i, int j) {
     if (min < r) {
         min = r;}
     int n = min;
-    
-    #ifdef N
-    int cache[N] = {0};
-    #endif
     
     while (n <= max) {
         int tmp = 1;
