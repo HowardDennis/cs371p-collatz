@@ -78,11 +78,11 @@ TEST(CollatzFixture, eval_5) {
     
 TEST(CollatzFixture, eval_6) {
     const int v = collatz_eval(1, 999999);
-    ASSERT_EQ(1, v);}
+    ASSERT_EQ(525, v);}
     
 TEST(CollatzFixture, eval_7) {
     const int v = collatz_eval(999999, 999999);
-    ASSERT_EQ(1, v);}
+    ASSERT_EQ(259, v);}
 // ----
 // Reversed order of numbers
 // ----
