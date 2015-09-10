@@ -18,7 +18,10 @@
 
 using namespace std;
 
-#define N 100000
+#define N 1000000
+#ifdef N
+int cache[N];
+#endif
 
 // ------------
 // collatz_read
@@ -48,10 +51,6 @@ int collatz_eval (int i, int j) {
     if (min < r) {
         min = r;}
     int n = min;
-    
-    #ifdef N
-    int cache[N] = {0};
-    #endif
     
     while (n <= max) {
         int tmp = 1;
