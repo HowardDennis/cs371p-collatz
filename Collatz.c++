@@ -59,6 +59,7 @@ int collatz_eval (int i, int j) {
         if (tmp > ret) {
             ret = tmp;}
         ++n;}
+    assert (ret > 0);
     return ret;}
 
 // -------------
