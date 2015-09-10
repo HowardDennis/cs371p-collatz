@@ -35,22 +35,31 @@ pair<int, int> collatz_read (const string& s) {
 
 int collatz_eval (int i, int j) {
     assert(i > 0 && j > 0 && i < 1000000 && j < 1000000);
-    int min, max;
+    int min, max, ret = 0;
     if (i > j) {
         min = j;
         max = i;}
     else {
         min = i;
-        max = j;
-    }
+        max = j;}
     int r = (max/2) + 1;
     if (min < r) {
         min = r;}
     int n = min;
     while (n <= max) {
-        ++n;
-    }
-    return n;}
+        int m = n, tmp = 1;
+        while (m > 1) {
+            if (m % 2 = 0) {
+                m /= 2;
+                ++tmp;}
+            else {
+                m = m + (m >> 1) + 1;
+                tmp += 2;}
+        }
+        if (tmp > ret) {
+            ret = tmp;}
+        ++n;}
+    return ret;}
 
 // -------------
 // collatz_print
