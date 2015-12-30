@@ -1,20 +1,8 @@
-// ----------------------------
-// projects/collatz/Collatz.c++
-// Copyright (C) 2015
-// Glenn P. Downing
-// ----------------------------
-
-// --------
-// includes
-// --------
-
-#include <cassert>  // assert
-#include <iostream> // endl, istream, ostream
-#include <sstream>  // istringstream
-#include <string>   // getline, string
-#include <utility>  // make_pair, pair
-
-#include "Collatz.h"
+#include <cassert>
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <utility>
 
 using namespace std;
 
@@ -23,21 +11,13 @@ using namespace std;
 int cache[N];
 #endif
 
-// ------------
-// collatz_read
-// ------------
-
 pair<int, int> collatz_read (const string& s) {
     istringstream sin(s);
     int i;
     int j;
     sin >> i >> j;
     return make_pair(i, j);}
-
-// ------------
-// collatz_eval
-// ------------
-
+    
 int collatz_eval (int i, int j) {
     assert(i > 0 && j > 0 && i < 1000000 && j < 1000000);
     int min, max, ret = 0;
@@ -78,18 +58,10 @@ int collatz_eval (int i, int j) {
         ++n;}
     assert (ret > 0);
     return ret;}
-
-// -------------
-// collatz_print
-// -------------
-
+    
 void collatz_print (ostream& w, int i, int j, int v) {
     w << i << " " << j << " " << v << endl;}
-
-// -------------
-// collatz_solve
-// -------------
-
+    
 void collatz_solve (istream& r, ostream& w) {
     string s;
     while (getline(r, s)) {
@@ -98,3 +70,8 @@ void collatz_solve (istream& r, ostream& w) {
         const int            j = p.second;
         const int            v = collatz_eval(i, j);
         collatz_print(w, i, j, v);}}
+        
+int main () {
+    using namespace std;
+    collatz_solve(cin, cout);
+    return 0;}
